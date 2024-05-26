@@ -1,0 +1,20 @@
+Global start
+:x
+24
+:y
+2
+:start
+loadA x
+loadB y
+pushA
+pushB
+call funct
+popA
+out
+hlt
+:funct
+popA
+popB
+mulAB
+pushA
+ret
